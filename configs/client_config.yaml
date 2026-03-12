@@ -1,0 +1,4 @@
+server_url: "http://127.0.0.1:8055/gesture"
+resize_width: 640
+quality: 85
+input_source: "../data/input/thumb_up.jpg" # 预留：可以是图片路径或摄像头ID

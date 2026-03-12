@@ -1,0 +1,13 @@
+# Web 框架与服务器
+fastapi==0.110.0
+uvicorn==0.27.1
+python-multipart==0.0.9
+
+# 核心算法与图像处理
+mediapipe==0.10.11
+opencv-python==4.9.0.80
+numpy==1.26.4
+
+# 客户端通信与配置解析
+requests==2.31.0
+PyYAML==6.0.1
