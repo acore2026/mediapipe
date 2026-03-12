@@ -1,0 +1,6 @@
+model_path: "../data/models/gesture_recognizer.task"
+save_dir: "../data/output"
+host: "0.0.0.0"
+port: 8055
+threshold: 0.5
+input_mode: "image"  # 预留：image, video, stream
