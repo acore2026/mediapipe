@@ -1,4 +1,9 @@
+# 服务端地址
 server_url: "http://127.0.0.1:8055/gesture"
+
+# 图像预处理
 resize_width: 640
 quality: 85
-input_source: "../data/input/thumb_up.jpg" # 预留：可以是图片路径或摄像头ID
+
+# 默认测试输入源 (相对于 client/ 目录)
+input_source: "data/input/thumb_up.jpg"
