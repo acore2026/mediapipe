@@ -1,6 +1,9 @@
-model_path: "../data/models/gesture_recognizer.task"
-save_dir: "../data/output"
+# 路径均相对于 mediapipe/ 根目录
+model_path: "data/models/gesture_recognizer.task"
+save_dir: "data/results"
+
+# 运行参数
 host: "0.0.0.0"
 port: 8055
 threshold: 0.5
-input_mode: "image"  # 预留：image, video, stream
+input_mode: "image"     # 预留：image, video, stream
